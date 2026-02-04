@@ -1,0 +1,29 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "LÖVE Debug",
+            "type": "lua",
+            "request": "launch",
+            "runtimeExecutable": "D:/Program Files/LOVE/love.exe",
+            "runtimeArgs": [
+                "${workspaceFolder}"
+            ],
+            "cwd": "${workspaceFolder}",
+            "stopOnEntry": false,
+            "consoleCoding": "utf8"
+        },
+        {
+            "name": "LÖVE Debug (with Breakpoints)",
+            "type": "lua",
+            "request": "launch",
+            "runtimeExecutable": "D:/Program Files/LOVE/love.exe",
+            "runtimeArgs": [
+                "${workspaceFolder}"
+            ],
+            "cwd": "${workspaceFolder}",
+            "stopOnEntry": true,
+            "consoleCoding": "utf8"
+        }
+    ]
+}

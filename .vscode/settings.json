@@ -1,0 +1,22 @@
+{
+    "[lua]": {
+        "editor.defaultFormatter": "sumneko.lua",
+        "editor.formatOnSave": true
+    },
+    "Lua.diagnostics.globals": [
+        "love",
+        "world",
+        "class",
+        "tiny",
+        "gamestate",
+        "beholder"
+    ],
+    "Lua.workspace.library": [
+        "${3rd}/love2d/library"
+    ],
+    "Lua.runtime.version": "Lua 5.1",
+    "Lua.telemetry.enable": false,
+    "Lua.workspace.checkThirdParty": false,
+    "debug.console.fontSize": 12,
+    "debug.console.lineHeight": 1.5
+}
