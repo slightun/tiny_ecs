@@ -5,7 +5,7 @@
             "name": "LÖVE Debug",
             "type": "lua",
             "request": "launch",
-            "runtimeExecutable": "D:/Program Files/LOVE/love.exe",
+            "runtimeExecutable": "love",
             "runtimeArgs": [
                 "${workspaceFolder}"
             ],
@@ -17,7 +17,7 @@
             "name": "LÖVE Debug (with Breakpoints)",
             "type": "lua",
             "request": "launch",
-            "runtimeExecutable": "D:/Program Files/LOVE/love.exe",
+            "runtimeExecutable": "love",
             "runtimeArgs": [
                 "${workspaceFolder}"
             ],
